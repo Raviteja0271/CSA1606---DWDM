@@ -1,0 +1,6 @@
+Name<-c("Challa","Ravi","Teja")
+Age<-c(21,22,23)
+Score<-c(90,93,96)
+Student_details<-data.frame(Name,Age,Score)
+summary(Student_details)
+write.csv(Student_details,"Experiment_7.csv")

@@ -1,0 +1,7 @@
+Name<-c("Yeswanth","Surya","Raj")
+Age<-c(20,21,22)
+Marks<-c(80,85,90)
+Student_database<-data.frame(Name,Age,Marks)
+mid_range=(min(Student_database$Age)+max(Student_database$Age)/2)
+print(paste("Mid Range is: ",mid_range))
+write.csv(Student_database,"Experiment_11.csv")

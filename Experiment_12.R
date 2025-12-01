@@ -1,0 +1,6 @@
+x <- c(10, 12, 9, 15, 18, 11, 13)
+z_x <- (x - mean(x)) / sd(x)
+print("Original data:")
+print(x)
+print("Z-score normalized data:")
+print(z_x)

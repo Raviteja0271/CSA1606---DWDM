@@ -1,0 +1,6 @@
+Name<-c("Yeswanth","Surya","Raj")
+Age<-c(20,21,22)
+Marks<-c(80,85,90)
+Student_database<-data.frame(Name,Age,Marks)
+quantile(Student_database$Age)
+write.csv(Student_database,"Experiment_10.csv")
