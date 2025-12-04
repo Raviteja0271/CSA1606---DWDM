@@ -6,3 +6,4 @@ print(round(cor_matrix, 2))
 # Visualize (install corrplot first if needed)
 library(corrplot)
 corrplot(cor_matrix, method = "color")
+
