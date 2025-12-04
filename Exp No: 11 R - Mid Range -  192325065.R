@@ -5,3 +5,4 @@ Student_database<-data.frame(Name,Age,Marks)
 mid_range=(min(Student_database$Age)+max(Student_database$Age)/2)
 print(paste("Mid Range is: ",mid_range))
 write.csv(Student_database,"Experiment_11.csv")
+
