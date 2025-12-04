@@ -1,0 +1,5 @@
+Names<-c("Challa","Ravi","Teja")
+Age<-c(21,22,23)
+Marks<-c(85,90,95)
+df<-data.frame(Names,Age,Marks)
+boxplot(df$Age)
